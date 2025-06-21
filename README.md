@@ -38,7 +38,7 @@ The project uses the `spam.csv` dataset, which should contain 'Category' (spam/h
 Run the main script to train the models, evaluate them, and generate visualizations:
 
 ```bash
-python "github projects/Bag-of-words spam classification/spam_detection.py"
+python "Bag-of-words spam classification/spam_detection.py"
 ```
 
 The script will print classification reports to the console and save two PNG files with visualizations in the project directory.
