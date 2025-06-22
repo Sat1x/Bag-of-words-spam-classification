@@ -13,7 +13,7 @@ from collections import Counter
 import re
 
 # Load the dataset
-df = pd.read_csv('/home/ivan-koptiev/Codes/Codes/portfolio website/github projects/Bag-of-words spam classification/spam.csv')
+df = pd.read_csv('spam.csv')
 
 # Create a binary target variable: 1 for spam, 0 for ham
 df['spam'] = df['Category'].apply(lambda x: 1 if x == 'spam' else 0)
